@@ -2,27 +2,12 @@
 
 ## Sommaire
 
-1. [Introduction](#introduction)
-2. [Installation de bind9](#installation-de-bind9)
-3. [Configuration de bind9](#configuration-de-bind9)
-4. [Configuration des zones](#configuration-des-zones)
-5. [Configuration des enregistrements](#configuration-des-enregistrements)
-6. [Vérification de la configuration](#vérification-de-la-configuration)
-7. [Configuration du pare-feu](#configuration-du-pare-feu)
-
-## Introduction
-
-> **Note** : La plupart des commandes devront être réalisés en tant qu'administrateur. Pour éviter de devoir mettre ```sudo``` devant toutes les commandes, il est conseillé de se mettre en "root" avec la commande ```sudo su```.
-
-> **Note** : Pour éditer les fichiers de configuration, il est conseillé d'utiliser l'éditeur de texte ```nano```. Pour l'installer, il suffit de taper la commande suivante : 
-> ```bash
-> dnf install nano
-> ```
-> Pour éditer un fichier, il suffit de taper la commande suivante :
-> ```bash
-> nano /chemin/vers/le/fichier
-> ```
-> Pour sauvegarder les modifications, il suffit de taper ```Ctrl + O```, puis ```Entrée```. Pour quitter l'éditeur, il suffit de taper ```Ctrl + X```.
+1. [Installation de bind9](#installation-de-bind9)
+2. [Configuration de bind9](#configuration-de-bind9)
+3. [Configuration des zones](#configuration-des-zones)
+4. [Configuration des enregistrements](#configuration-des-enregistrements)
+5. [Vérification de la configuration](#vérification-de-la-configuration)
+6. [Configuration du pare-feu](#configuration-du-pare-feu)
 
 
 ## Installation de bind9

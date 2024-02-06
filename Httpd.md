@@ -53,7 +53,7 @@ systemctl reload httpd
 
 Pour autoriser le trafic HTTP, il suffit de taper la commande suivante :
 ```bash
-firewall-cmd --add-service=http --permanent
+firewall-cmd --add-service=http --permanent --zone=public
 firewall-cmd --reload
 ```
 

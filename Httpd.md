@@ -59,7 +59,7 @@ firewall-cmd --reload
 
 Pour autoriser le trafic HTTPS, il suffit de taper la commande suivante :
 ```bash
-firewall-cmd --add-service=https --permanent
+firewall-cmd --add-service=https --permanent --zone=public
 firewall-cmd --reload
 ```
 

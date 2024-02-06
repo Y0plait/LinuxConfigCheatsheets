@@ -139,7 +139,7 @@ Si les commandes ne retournent rien, c'est que la syntaxe des fichiers de zone e
 
 Pour que le serveur DNS soit accessible depuis l'extérieur, il faut ouvrir le port 53. Pour cela, il suffit de taper la commande suivante :
 ```bash
-firewall-cmd --add-service=dns --permanent
+firewall-cmd --add-service=dns --permanent --zone=public
 firewall-cmd --reload
 ```
 
